@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style = "background-color: rgb(250, 197, 173)">
+        <div class="container-fluid">
+          <select class="form-select">
+            <option selected> 
+              <a class="navbar-brand" href="#">About me</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <option value="1">Education</option>
+            <option value="2">Interests</option>
+            <option value="3">Plans</option>
+          </select>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</head>
+<body>
+    <div class="card">
+        <div class="row no-gutters">
+            <div class="col">
+                <div class="card-block px-2">
+                    <h2 class="card-title">About me</h2>
+                    <p class="card-text">Hello guys! <br>
+                        I'm Arina Shalgynbayeva. <br>
+                        Now I'm a second year student at Astana University. <br>
+                        I'm a very interesting conversationalist, a creative person who respects the opinions of others and of course yours too. <br>
+                        Moreover, speaking of philosophy: for a long time you cannot bring me to another topic if you start with this one. <br> 
+                        Very nice yo meet you here~</p>
+                </div>
+            </div>
+            <div class="col-auto">
+                <img src="https://shutnikov.club/wp-content/uploads/2020/01/Anime_ava_dlya_yutuba_1_31180133.jpg" class="img-fluid" alt="">
+            </div>
+        
+        </div>
+        
+  </div>
+    
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Education
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                Before I entered Astana IT University, I studied at two different schools. The first was the 3rd gymnasium. But in the 7th grade, I transferred to KTL from which I graduated in the future.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Interest
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                A hobby is what every person has. Of course I also have them. I am fond of many things, but especially drawing, dancing, reading, sewing. This is all that soothes my soul and refreshes my thinking in new challenges.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Plans
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                Honestly, I added this in order to understand what I am generally building for the future. So my plans are not so big. I am not going to reach the highest peak. My plans so far are to find a good, secure environment for myself, which is also important besides graduating from university. Then go to the magistracy, where I will finally choose what I really like.
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <main class = "grid">
+    <div class="card" style="width: 18rem;" >
+        <img src="https://letket.com/wp-content/uploads/2020/12/app-development-banner_33099-1720.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">In this project, the ZeroQ Android application helps people avoid having to stand in a
+            long queue by: (1) allowing them to scan (the barcode) on the items they want as they are
+            vi putting them into their (physical) shopping cart, (2) confirm which scanned items they
+            wish to purchase, (3) confirm the purchase and pay their bill using PayPal (or cancel
+            purchase/payment), and (4) generate a receipt for the purchased items.</p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;" >
+        <img src="https://www.lifewire.com/thmb/kl3swkmAw2qcYBkxsOs9jIKsoFk=/3644x2733/filters:fill(auto,1)/database-157334670-5c29939d46e0fb0001edf766.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text"> In this project we have created one application which is easy to access and user friendly. 
+              The  application  keeps  a  backup  of  the  wedding  management  data  which  includes  their  details. 
+               A  wedding  planner  is  a  professional  who  assists  with  the  design,  planning  and management of a client's wedding. </p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;" >
+        <img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fHdlYiUyMGRldmVsb3BtZW50fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">IPA believes that it has demonstrated the potential for this web development process to
+            work again. It was indeed a learning process for all parties involved. IPA’s
+            recommendations for future such projects include 1) a more generous timeline—six
+            months, 2) a more active role by the IT (or brokering) agency in helping move the
+            process along, and 3) an intentional effort to stress the commitment of the benefiting
+            agency’s web development resources (funding and ongoing staff support) at the outset.</p>
+        </div>
+    </div>
+</main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+<footer>
+    <h5>Telegram</h5>
+    <h5>Mail</h5> 
+    <h5>Phone number</h5>
+    <p>@just_for_fun</p>
+    <p>kenscssace_nao@gmail.com </p> 
+    <p>+7 700 840 12 04</p>
+</footer>
+</html>

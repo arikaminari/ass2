@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient( #f5ef6d 0%, #9f54a1 100%);
+}
+footer{
+    text-align: center;
+    background-color: khaki;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.container-fluid{
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 1000px;
+}
+.card{
+    border-radius: 10px;
+    margin: 20px 80px 40px 80px;
+    background-color: rgb(250, 197, 173);
+}
+.grid{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: stretch;
+}
+
+.col-auto{
+    width: 350px;
+    margin: 20px 50px 20px auto;
+}
+.card-block{
+    margin:90px auto 90px 60px;
+}
+.card-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.card-text{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.accordion-item{
+    margin: auto 50px 20px 50px;
+    background-color: rgb(245, 240, 194);
+}
+.accordion-button{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: rgb(250, 197, 173);
+}
